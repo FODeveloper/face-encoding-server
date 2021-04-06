@@ -22,7 +22,7 @@ def save_person(data):
 def recognize_face_image(image):
     rectangles = face_locations(image)
     response = {
-        'result': 'none or several faces in the input images'
+        'result': 'none or several faces in the input image'
     }
     encoded = False
     if len(rectangles) == 1:

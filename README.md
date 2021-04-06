@@ -25,6 +25,6 @@ for media: in postman body tab, change the type from text to file, to be able to
 7.  if there are many persons, or none in the image, the server will return 
 ```
 {
-  'result': 'none or several faces in the input images'
+  'result': 'none or several faces in the input image'
 }
 ```
